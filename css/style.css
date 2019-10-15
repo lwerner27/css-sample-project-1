@@ -136,6 +136,8 @@ body {
 .btn-animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
+    /* Animation fill mode with a value of backwards makes it so that 
+    the element adopts the styles from the 1st keyframe as its initial styles */
 }
 
 @keyframes moveInLeft {
