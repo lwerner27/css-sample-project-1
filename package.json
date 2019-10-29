@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass ./sass/main.scss ./css/compiled_styles.css",
-    "watch:sass": "node-sass ./sass/main.scss ./css/compiled_styles.css -w"
+    "watch:sass": "node-sass ./sass/main.scss ./css/compiled_styles.css -w",
+    "start:server": "live-server --host=127.0.0.1 --port=3020"
   },
   "repository": {
     "type": "git",
