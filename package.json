@@ -1,0 +1,24 @@
+{
+  "name": "css-sample-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/compiled_styles.css",
+    "watch:sass": "node-sass ./sass/main.scss ./css/compiled_styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwerner27/css-sample-project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwerner27/css-sample-project-1/issues"
+  },
+  "homepage": "https://github.com/lwerner27/css-sample-project-1#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
