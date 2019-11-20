@@ -57,5 +57,22 @@
         padding-top: 2rem;
         width: 80%;
         float: right;
+
+        &-link {
+            &:link,
+            &:visited {
+                color: $color-grey-light-1;
+                background-color: $color-grey-dark-3;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+
+            &:hover,
+            &:active {
+                color: $color-primary;
+                text-decoration: underline;
+            }
+        }
     }
 }
