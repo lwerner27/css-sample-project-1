@@ -30,6 +30,9 @@ phone
 tab-port
 tab-land
 lg-desktop
+
+ORDER: Base + Typography > General Layout + Grid > Page Layout > Components
+
 */
 
 @mixin respond($breakpoint) {
